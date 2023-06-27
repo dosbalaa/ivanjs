@@ -61,3 +61,10 @@ personalMovieDB.movies[a] = b;
 personalMovieDB.movies[c] = d;
 
 console.log(personalMovieDB);
+
+const hamburger = true;
+const fries = true;
+
+if (hamburger && fries) {
+  console.log("im okay");
+}
