@@ -62,9 +62,12 @@ personalMovieDB.movies[c] = d;
 
 console.log(personalMovieDB);
 
-const hamburger = true;
-const fries = true;
+const hamburger = 3;
+const fries = 1;
+const cola = 0;
 
-if (hamburger && fries) {
+if (hamburger === 3 && cola && fries) {
   console.log("im okay");
+} else {
+  console.log("we gone");
 }
